@@ -1,0 +1,131 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation */
+.site-wrap {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 1000px;
+    padding-top: 100px;
+}
+
+/* Cart Table */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 1rem;
+    vertical-align: middle;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table-bordered {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.product-thumbnail img {
+    max-width: 100px;
+    height: auto;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.btn-remove {
+ width: 30%;
+ height: 20%;
+ background-color: white;
+}
+
+.product-remove a {
+    color: #dc3545;
+}
+
+.product-remove a:hover {
+    text-decoration: none;
+}
+
+/* Cart Totals */
+.text-right {
+    text-align: right !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.h4 {
+    font-size: 1.5rem;
+}
+
+.h5 {
+    font-size: 1.25rem;
+}
+
+/* Checkout Button */
+.btn {
+    width: 50%;
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #007bff;
+    border: 2px solid #80ffff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 60px;;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-block {
+    display: block;
+    width: 50%;
+}
+.btn-primary {
+	margin-left: 730px;
+	margin-top: 20px;
+	width: 250px;
+}
